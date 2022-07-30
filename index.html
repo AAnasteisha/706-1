@@ -1,3 +1,59 @@
+<style>
+    .contact-panel {
+        background-color: pink;
+        padding: 52px 40px 40px 52px;
+        margin: auto;
+        border-radius: 35px;
+        width: 683px;
+    }
+
+    .contact-panel-decoration {
+        display: flex;
+        justify-content: center;
+        /*color: rgb(255, 91, 46);*/
+        font-size: 17px;
+    }
+
+    .panel-heading-text {
+        display: flex;
+        justify-content: center;
+        font-size: 34px;
+        /*overflow-wrap: break-word;
+        flex-wrap:wrap;*/
+    }
+
+    .contact-text-number {
+        display: flex;
+        justify-content: center;
+        gap:5px;
+        font-size: 19px;
+    }
+
+    .contact-number {
+        text-decoration: none;
+        color: rgb(255, 91, 46);
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        font-size: 17px;
+    }
+    .button1 {
+        text-decoration: none;
+        color: white;
+        background-color: rgb(255, 91, 46);
+        border-radius: 25px;
+    }
+    
+    .button2 {
+        text-decoration: none;
+        color: black;
+        background-color: rgb(251, 237, 223);
+        border-radius: 25px;
+    }
+</style>
 <!--Nastia Chorniy-->
 <div class="contact-panel">
     <div class="contact-panel-decoration">
@@ -7,10 +63,10 @@
         Schedule a Visit to a Vet or Groomer?</h2>
     <p class="contact-text-number">
         <span class="contact-text">Call us</span>
-        <span class="contact-number">
-            <a href="#">+ 1 (234) 567 89 00</a>
-        </span>
+        <a href="#" class="contact-number">+ 1 (234) 567 89 00</a>
     </p>
-    <a href="#">Contact Us</a>
-    <a href="#">Order Services</a>
+    <div class="buttons">
+        <a href="#" class="button1">Contact Us</a>
+        <a href="#" class="button2">Order Services</a>
+    </div>
 </div>
